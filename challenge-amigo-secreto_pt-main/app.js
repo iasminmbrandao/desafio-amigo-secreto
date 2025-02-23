@@ -31,3 +31,19 @@ function atualizarLista() {
         lista.appendChild(li);  // Adicionar o <li> à lista (ul)
     }
 }
+
+function verificarLista() {
+    if (amigos.length === 0) {  // Verifica se a lista está vazia
+        alert('Por favor, adicione os nomes dos seus amigos antes de realizar o sorteio.');
+    } else {
+        sortearAmigo();  // Chama a função para sortear o amigo
+    }
+}
+
+function sortearAmigo() {
+    let indiceAleatorio = Math.floor(Math.random() * amigos.length);  // Gera um índice aleatório
+    let amigoSorteado = amigos[indiceAleatorio];  // Pega o nome do amigo sorteado
+    document.getElementById('resultado').innerHTML = "O amigo sorteado é: " + amigoSorteado;
+}
+
+
