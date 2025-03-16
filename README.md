@@ -20,9 +20,9 @@ Bem-vindo ao **Amigo Secreto**, um projeto simples e divertido para adicionar am
 4. O nome do amigo sorteado será exibido na tela.
 
 
-## 🌐 Deploy no Vercel
+## 🌐 Deploy no GitHub Pages
 Você pode acessar o projeto online através do seguinte link:
-[🔗 Link para o Vercel](https://desafio-amigo-secreto-ysmv.vercel.app/) 
+🔗 [Link para o GitHub Pages](https://iasminmbrandao.github.io/desafio-amigo-secreto/) 
 
 Divirta-se e aproveite o sorteio! 🎲🎊
 
